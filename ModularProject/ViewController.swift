@@ -6,14 +6,22 @@
 //
 
 import UIKit
+import Login
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var loginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        loginButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
     }
-
-
+    
+    @objc
+    func loginButtonTapped(_ sender: UIButton) {
+        let viewController = LoginViewController()
+        navigationController?.pushViewController(viewController, animated: true)
+    }
 }
 

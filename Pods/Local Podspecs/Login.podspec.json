@@ -1,0 +1,22 @@
+{
+  "name": "Login",
+  "version": "0.1.0",
+  "summary": "A short description of Login.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/App Delivery/Login",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "App Delivery": "appdelivery@f1soft.com"
+  },
+  "source": {
+    "git": "https://github.com/App Delivery/Login.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Login/Classes/**/*"
+}
